@@ -15,26 +15,20 @@ $(".oul>ul>li").on("click",function(){
 	$(".title>p:eq(1)").html("如果你想去看看，那就快点击下面的按钮吧");
 	$(".title>p:eq(2)>a").attr("href",ohref);
 	$(".odisplay").empty();
-	var newDiv1 = $(`
-		<div class="col-12 col-sm-6 col-lg-4">
-			<h2>`+stitle1+`</h2>
-			<img src="`+simg1+`" alt="图片不见了" class="img-responsive">
-		</div>
-	`);
+	var newDiv1 = $('<div class="col-12 col-sm-6 col-lg-4">'
+			+'<h2>'+stitle1+'</h2>'
+			+'<img src="'+simg1+'" alt="图片不见了" class="img-responsive">'
+		+'</div>');
 	$(".odisplay").append(newDiv1);
-	var newDiv2 = $(`
-		<div class="col-12 col-sm-6 col-lg-4">
-			<h2>`+stitle2+`</h2>
-			<img src="`+simg2+`" alt="图片不见了" class="img-responsive">
-		</div>
-	`);
+	var newDiv2 = $('<div class="col-12 col-sm-6 col-lg-4">'
+			+'<h2>'+stitle2+'</h2>'
+			+'<img src="'+simg2+'" alt="图片不见了" class="img-responsive">'
+		+'</div>');
 	$(".odisplay").append(newDiv2);
-	var newDiv3 = $(`
-		<div class="col-12 col-sm-6 col-lg-4">
-			<h2>`+stitle3+`</h2>
-			<img src="`+simg3+`" alt="图片不见了" class="img-responsive">
-		</div>
-	`);
+	var newDiv3 = $('<div class="col-12 col-sm-6 col-lg-4">'
+			+'<h2>'+stitle3+'</h2>'
+			+'<img src="'+simg3+'" alt="图片不见了" class="img-responsive">'
+		+'</div>');
 	$(".odisplay").append(newDiv3);
 });
 
