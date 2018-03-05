@@ -4,7 +4,7 @@
 
 ### 一下是界面图片示例<br>
 
-<img width="400px; src="./read/bg01.jpg"/><br>
+<img width="400px" src="./read/bg01.jpg"/> <br>
 
 
-<img width="400px; src="./read/bg02.jpg"/>  &nbsp;&nbsp; <img width="100px" src="./read/bg03.jpg" />
+<img width="200px" src="./read/bg02.jpg"/>  &nbsp;&nbsp; <img width="200px" src="./read/bg03.jpg" />
